@@ -1,0 +1,17 @@
+{
+  "name": "tmp.tijpf97r",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc -b",
+    "start": "node main.js",
+    "debug": "node --inspect-brk=0.0.0.0 main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^4.7.4"
+  }
+}
