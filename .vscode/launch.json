@@ -8,7 +8,9 @@
       "request": "attach",
       "skipFiles": ["<node_internals>/**"],
       "type": "node",
-      "sourceMap": true
+      "sourceMaps": true,
+      "remoteRoot": "/app",
+      "localRoot": "${workspaceFolder}"
     }
   ]
 }
